@@ -7,3 +7,6 @@ the original cutmix re-calculate the prob if the bbox is out of range. I use som
 
 
 And, I use KL divergence instead of linear combination of 2 cross entropy loss.
+
+
+And, thanks for YUQS, who told me that using clone when assigning value to other variable instead of clone at the beginning of the function. This can improve efficiency and save memory.
